@@ -1,9 +1,9 @@
-# TWRP Device Tree for the Samsung Galaxy S24 5G (Exynos)
+# TWRP Device Tree for the Samsung Galaxy S24/S24+ 5G (Exynos)
 
 ## How-to compile it:
 ```bash
 . build/envsetup.sh
-lunch twrp_e1s-eng
+lunch twrp_e2s-eng
 make recoveryimage
 ```
 
@@ -13,4 +13,3 @@ make recoveryimage
 [Secondarian](https://github.com/Secondarian) for helping me get it working on this device
 
 [Physwizz](https://github.com/physwizz) for helping me about device tree
-
